@@ -1,0 +1,23 @@
+name: t4train-conda-env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - configparser
+  - numpy
+  - opencv
+  - tensorflow
+  - scipy
+  - pyserial
+  - pyqt<=5.13
+  - pyqtwebengine<=5.13
+  - pyqtgraph=0.11
+  - matplotlib
+  - scikit-learn
+  - psutil
+  - pillow
+  - pyaudio
+  - pip
+  - pip:
+    - timeloop==1.0.*
